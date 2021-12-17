@@ -3,11 +3,26 @@
   <groupId>main.java</groupId>
   <artifactId>strategies</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <url>adresserepo</url>
+  <url>https://github.com/Arukadia/partage-strategies-PC.git</url>
   <repositories>
 		<repository>
 		    <id>jitpack.io</id>
 		    <url>https://jitpack.io</url>
 		</repository>
 	</repositories>
+	<dependencies>
+	<dependency>
+			<groupId>org.jacoco</groupId>
+			<artifactId>jacoco-maven-plugin</artifactId>
+			<version>0.8.7</version>
+
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>5.6.0</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	
 </project>
